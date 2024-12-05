@@ -26,7 +26,7 @@
     * race_data_2012_2021.parquet : race_data_2012_2021.zip内のデータを結合し、加工を施したデータ。(加工内容に関してはdata整形を参照。)
     (488126 rows × 19 columns)
       
-* 'data整形用'
+* 'data_reshape'
   * scrapeで収集してきたデータを適切な形に変換したnotebook
   * 下記に各notebookでの加工内容概要を記載
     * race_data_concat.ipynb : 分割して取得したrace_dataを結合し、以下の加工をした。
